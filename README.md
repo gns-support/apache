@@ -1,5 +1,5 @@
 apache
-========
+======
 
 An [Ansible](http://www.ansible.com) role for the [apache HTTP server](http://httpd.apache.org).
 
