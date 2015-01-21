@@ -4,7 +4,8 @@ apache
 An [Ansible](http://www.ansible.com) role for the [apache HTTP server](http://httpd.apache.org).
 
 [![Build Status](https://travis-ci.org/ansiblebit/apache.svg?branch=master)](https://travis-ci.org/ansiblebit/apache)
-[![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/ansiblebit/apache/master/LICENSE)
+[![[![License](https://img.shields.io/badge/license-New%20BSD-blue.svg)](https://raw.githubusercontent.com/ansiblebit/apache/master/LICENSE)
+[![Project Stats](https://www.openhub.net/p/ansiblebit-apache/widgets/project_thin_badge.gif)](https://www.openhub.net/p/ansiblebit-apache/)
 
 Requirements
 ------------
