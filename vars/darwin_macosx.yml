@@ -1,0 +1,4 @@
+---
+# darwin MacOSX vars file
+
+apache_service: apachectl
