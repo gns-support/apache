@@ -1,2 +1,5 @@
 ---
 # vars file
+
+- include_vars: darwin_macosx.yml
+  when: ansible_os_family | lower == 'darwin' and ansible_distribution | lower == 'macosx'
