@@ -1,2 +1,21 @@
 ---
 # handlers file
+
+handlers:
+  - name: enable apache
+    service: name={{ apache_service }} enabled=yes
+
+  - name: disable apache
+    service: name={{ apache_service }} enabled=no
+
+  - name: start apache
+    service: name={{ apache_service }} state=started
+
+  - name: stop apache
+    service: name={{ apache_service }} state=stopped
+
+  - name: restart apache
+    service: name={{ apache_service }} state=restarted
+
+  - name: reload apache
+    service: name={{ apache_service }} state=reloaded
